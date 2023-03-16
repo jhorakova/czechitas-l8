@@ -28,10 +28,10 @@ const flavourHaven = (pocet) => {
 }
 
 const createEvent = (nameEvent, pocet, cateringFirma) => {
-    return `${nameEvent} s cateringem od ${cateringFirma(pocet)}`
+    return `${nameEvent} s ${cateringFirma(pocet)}`
 }
 
-
+document.body.textContent = createEvent('Narozeniny', 70, flavourHaven)
 
 
 
