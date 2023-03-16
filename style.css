@@ -1,32 +1,21 @@
-/* Google fonts */
-
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400,400i,700,700i|Pacifico&subset=latin-ext');
-/* nejsme vcerejsi, pouzivame moderni a intuitivni box model */
-
-html {
-	box-sizing: border-box;
+* {
+  box-sizing: border-box;
 }
 
-*,
-::after,
-::before {
-	box-sizing: inherit;
+html {
+  font-family: sans-serif;
 }
 
 body {
-	margin: 0;
-	padding: 50px;
-	font: 18px/1.5 sans-serif;
-	background-color: white;
-	color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  
+  height: 100vh;
 }
 
-.msg {
-	padding: 10px;
-}
-.msg--valid {
-	background-color: green;
-}
-.msg--invalid {
-	background-color: red;
+.dice {
+  width: 10rem;
+  height: 10rem;
 }
